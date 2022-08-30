@@ -1,0 +1,27 @@
+2021-11-26 23:16:05 INFO ---- Entered into class >>>>>> Raw_Data_Validation
+2021-11-26 23:16:05 INFO ---- Loading schema from Training_Schema.json completed
+2021-11-26 23:16:05 INFO ---- Deleted existing Training_Batch_Files/Good_Data/ folder
+2021-11-26 23:16:05 INFO ---- Created Training_Batch_Files/Good_Data/ folder
+2021-11-26 23:16:05 INFO ---- Deleted existing Training_Batch_Files/Bad_Data/ folder
+2021-11-26 23:16:05 INFO ---- Created Training_Batch_Files/Bad_Data/ folder
+2021-11-26 23:16:06 INFO ---- Copied train1.csv to Good_Data Folder
+2021-11-26 23:16:06 INFO ---- Copied train2.csv to Good_Data Folder
+2021-11-26 23:16:06 INFO ---- Copied train3.csv to Good_Data Folder
+2021-11-26 23:16:06 INFO ---- Copied train4.csv to Good_Data Folder
+2021-11-26 23:16:06 INFO ---- Exiting from class <<<<<< Raw_Data_Validation
+2021-11-26 23:16:06 INFO ---- Entered into class >>>>>> All_DB_func
+2021-11-26 23:16:06 INFO ---- Data Uploading Started
+2021-11-26 23:16:06 INFO ---- Uploading_data to Cassandra Database Completed
+2021-11-26 23:16:06 INFO ---- Retrieving data from DB Completed and stored in Training_file.csv
+2021-11-26 23:16:06 INFO ---- Entered into class >>>>>> dataPreprocessing
+2021-11-26 23:16:06 INFO ---- Handling Categorical Variables Completed
+2021-11-26 23:16:06 INFO ---- Successfully completed method date_time_var
+2021-11-26 23:16:06 INFO ---- Successfully completed handle_duration_col
+2021-11-26 23:16:06 INFO ---- Successfully executed start_preprocessing_for_training
+2021-11-26 23:16:06 INFO ---- Exiting from class <<<<<< dataPreprocessing
+2021-11-26 23:16:06 INFO ---- Entered into class >>>>>> trainModel
+2021-11-26 23:16:06 INFO ---- Hyperparameter tuning started
+2021-11-26 23:16:27 INFO ---- Hyperparameter tuning finished with best params as {}
+2021-11-26 23:16:33 INFO ---- 673.7808662525225 is error for the model
+2021-11-26 23:16:33 INFO ---- 0.8930121985404236 is r2 score for the model
+2021-11-26 23:16:36 INFO ---- Exiting from class <<<<<< trainModel
